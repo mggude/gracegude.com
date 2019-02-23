@@ -3,5 +3,5 @@
 www.gracegude.com
 
 ## Made With:
-React, Reactstrap/Bootstrap, Firebase, Animated Css
-# gracegude.com
+React, Reactstrap/Bootstrap, Firebase, Animated CSS
+

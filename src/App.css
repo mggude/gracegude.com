@@ -67,6 +67,7 @@ ul.nav li.active a {
     position: relative;
     width: 20vw;
     box-shadow: 0 0 10px #FFF;
+    margin-bottom: 2rem;
   }
 
   .work img:hover {

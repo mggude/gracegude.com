@@ -2,6 +2,7 @@ import React from "react";
 import '../App.css';
 import { Container, Row, Col } from "reactstrap";
 import { Animated } from "react-animated-css";
+import ReactTooltip from 'react-tooltip';
 
 function Home() {
     return (
@@ -10,7 +11,10 @@ function Home() {
             <Container className="content">
                 <Row>
                     <Col md="2.5 offset-2">
-                        <img src="https://media.licdn.com/dms/image/C4E03AQHaXK3aDzJVhQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=gPaSkfXFErG2JGpG6zsEKazkur0l7YqGOnpiZUIPwe4" alt="Avatar" id="avatar"></img>
+                        <img src="https://media.licdn.com/dms/image/C4E03AQHaXK3aDzJVhQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=gPaSkfXFErG2JGpG6zsEKazkur0l7YqGOnpiZUIPwe4" alt="Avatar" id="avatar" data-tip data-for='meetyou'></img>
+                        <ReactTooltip id='meetyou' type='error' className='customTheme'>
+                  <span>Nice to meet you!</span>
+                </ReactTooltip>
                     </Col>
                     <Col md="6">
                         <br></br>
