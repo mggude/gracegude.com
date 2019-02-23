@@ -1,32 +1,93 @@
-.App {
-  text-align: center;
+* {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #FFF;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bnwbluff.png");
+  background-size: cover;
+}
+  
+.nav {
+    /* border-bottom: 2px solid #ee7b6c; */
+    width: 100vw!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+#avatar {
+    border-radius: 50%;
+    border: 2px solid #ee7b6c;
+    box-shadow: 0 0 10px #FFF;
 }
 
-.App-link {
-  color: #61dafb;
+ul.nav li a, ul.nav li a:visited {
+    color: #FFF !important;
+    margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ul.nav li a:hover, ul.nav li a:active, .fab:hover {
+    color: #ee7b6c !important;
+}
+
+.active {
+    text-shadow: 0 0 10px #FFF;
+}
+
+ul.nav li.active a {
+    text-shadow: 0 0 10px #FFF;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 15vh;
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+/* .work {
+
+} */
+
+.btn-primary, a, .together {
+    color: #ee7b6c !important;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #ee7b6c !important;
+    color: #FFF !important;
+}
+
+.work img {
+    float: left;
+    border: 0 none;
+    border-radius: 10px;
+    height: 20vw;
+    margin: 1rem;
+    position: relative;
+    width: 20vw;
+    box-shadow: 0 0 10px #FFF;
   }
+
+  .work img:hover {
+    border: 2px solid #ee7b6c;
+  }
+
+  input, textarea {
+      opacity: .7;
+  }
+
+p {
+      line-height: 2;
+  }
+
+.skill {
+    letter-spacing: 15px;
+}
+
+.customTheme {
+    background-color: #ee7b6c !important;
+    color: white !important;
+    border: 1px solid white;
+    padding: 5px;
 }
