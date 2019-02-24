@@ -55,7 +55,7 @@ function Projects() {
             <div className="work">
               <a href="https://mggude.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer" data-tip data-for='trivia'><img src="https://i.imgur.com/GGIkaXE.jpg" alt="Harry Potter Trivia" /></a>
               <ReactTooltip id='trivia' type='error' className='customTheme'>
-                  <span>Harry Potter Trivia Game (Simple Code)</span>
+                  <span>Harry Potter Trivia Game</span>
                 </ReactTooltip>
             </div>
           </Col>
