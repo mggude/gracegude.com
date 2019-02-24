@@ -55,7 +55,7 @@ export default class About extends React.Component {
           <Row>
             <Col lg="8 offset-2">
 
-              <p>I am web developer and visual designer with a knack for front end technologies. I enjoy utilizing my background in marketing and design to build beautiful, functional websites with intuitive UX/UI - always in an agile environment. I am passionate about writing the cleanest and most efficient code possible.</p><p> I am a published writer and photographer, have travelled to over 20 countries, and speak French conversationally. I love exploring the mountains, rivers, yoga studios and breweries of Colorado. Let's work together!</p>
+              <p>I am a full stack web developer and visual designer with a knack for front end technologies. I enjoy utilizing my background in marketing and design to build beautiful, functional websites with intuitive UX/UI - always in an agile environment. I am passionate about writing the cleanest and most efficient code possible.</p><p> I am a published writer and photographer, I have travelled to over 20 countries, and I speak French conversationally. I love exploring the mountains, rivers, yoga studios and breweries of Colorado. Let's work together!</p>
               <br />
               <h2 className="text-center">
 

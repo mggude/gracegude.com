@@ -44,6 +44,12 @@ const Nav = () => {
                         <span>GitHub</span>
                     </ReactTooltip>
                 </li>
+                <li className="nav-item d-flex justify-content-start">
+                    <a href="https://www.github.com/mggude/gracegude.com" target="_blank" rel="noopener noreferrer" data-tip data-for='reactpower' className={window.location.pathname === "/home" ? "nav-link active" : "nav-link"}><i className="fab fa-react react-icon" data-tip="reactpower"></i></a>
+                    <ReactTooltip id='reactpower' type='error' className='customTheme'>
+                        <span>Powered by React</span>
+                    </ReactTooltip>
+                </li>
 
             </ul>
         </>

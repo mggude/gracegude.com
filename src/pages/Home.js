@@ -22,7 +22,7 @@ function Home() {
                         <h1>Hello World!</h1>
                         <p>
                             My name is Grace and I am a web developer, visual designer and project manager based in Denver.
-                            I enjoy developing, designing and managing interesting projects with cool people!
+                            I enjoy designing, developing and managing interesting projects with cool people!
                         </p>
                     </Col>
                 </Row>
