@@ -11,7 +11,7 @@ function Home() {
             <Container className="content">
                 <Row>
                     <Col md="2.5 offset-2">
-                        <img src="https://media.licdn.com/dms/image/C4E03AQHaXK3aDzJVhQ/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=gPaSkfXFErG2JGpG6zsEKazkur0l7YqGOnpiZUIPwe4" alt="Avatar" id="avatar" data-tip data-for='meetyou'></img>
+                        <img src="https://media.licdn.com/dms/image/C4E03AQHaXK3aDzJVhQ/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=C6iVUD_s4Gm3N88I1UINKIwGWWWPzsu99YyUT9JLHZ8" alt="Avatar" id="avatar" data-tip data-for='meetyou'></img>
                         <ReactTooltip id='meetyou' type='error' className='customTheme'>
                   <span>Nice to meet you!</span>
                 </ReactTooltip>
