@@ -10,8 +10,8 @@ function Home() {
             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
             <Container className="content">
                 <Row>
-                    <Col md="2.5 offset-2">
-                        <img src="https://media.licdn.com/dms/image/C4E03AQHaXK3aDzJVhQ/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=C6iVUD_s4Gm3N88I1UINKIwGWWWPzsu99YyUT9JLHZ8" alt="Avatar" id="avatar" data-tip data-for='meetyou'></img>
+                    <Col md="2.5">
+                        <img src="https://avatars2.githubusercontent.com/u/44000341?s=460&u=f2e74739de77a1de58fde4ed9cb414d408a3ac8f&v=4" style = {{ width: '80%'}} alt="Avatar" id="avatar" data-tip data-for='meetyou'></img>
                         <ReactTooltip id='meetyou' type='error' className='customTheme'>
                   <span>Nice to meet you!</span>
                 </ReactTooltip>
