@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bnwbluff.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://s3-us-west-1.amazonaws.com/gracegude.com/bnwbluff.png");
   background-size: cover;
 }
   
