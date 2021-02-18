@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import { Container, Row, Col } from "reactstrap";
 import { Animated } from "react-animated-css";
 import '../App.css';
 import ReactTooltip from 'react-tooltip';
@@ -51,9 +50,7 @@ export default class About extends React.Component {
   render() {
     return (
       <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-        <Container className="content">
-          <Row>
-            <Col lg="8 offset-2">
+        <div className="content" margin="auto">
 
               <p>As a full-stack software engineer and Scrum Leader (CSM), I enjoy working with my team to design and build platforms with clean, modern, maintainable code to create efficient and effective user interfaces.</p><p>I live in Denver amongst a thriving tech community in which I’ve been fortunate to adopt several talented mentors. I have also been honored to assist junior devs in the genesis of their journeys.</p><p>My background in graphic design, marketing, photography, and publishing come in handy more often than my degrees in Anthropology and French, but maybe someday I will excavate ancient Neanderthal caves in the south of France.</p>
               <br />
@@ -101,10 +98,7 @@ export default class About extends React.Component {
 
               </h2>
               <br />
-            </Col>
-          </Row>
-          <Row>
-            <Col lg="8 offset-2">
+            <div margin="auto">
               <Form onSubmit={this.handleFormSubmit}>
                 <Label for="message">Feel free to email me at <a href={"mailto:grace@gracegude.com"}>grace@gracegude.com</a> - or fill out the form below, I will check the db eventually!</Label>
                 <FormGroup>
@@ -118,9 +112,8 @@ export default class About extends React.Component {
                 </FormGroup>
                 <Button className="btn-primary" type="submit" color="light" onClick={this.handleFormSubmit}>Submit</Button>
               </Form>
-            </Col>
-          </Row>
-        </Container>
+              </div>
+              </div>
       </Animated>
     );
   }
