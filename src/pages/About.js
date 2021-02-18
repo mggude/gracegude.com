@@ -55,7 +55,7 @@ export default class About extends React.Component {
           <Row>
             <Col lg="8 offset-2">
 
-              <p>I am a full stack web developer and visual designer with a knack for front end technologies. I enjoy utilizing my background in marketing and design to build beautiful, functional websites with intuitive UX/UI - always in an agile environment. I am passionate about writing the cleanest and most efficient code possible.</p><p> I am a published writer and photographer, I have travelled to over 20 countries, and I speak French conversationally. I love exploring the mountains, rivers, yoga studios and breweries of Colorado. Let's work together!</p>
+              <p>As a full-stack software engineer and Scrum Leader (CSM), I enjoy working with my team to design and build platforms with clean, modern, maintainable code to create efficient and effective user interfaces.</p><p>I live in Denver amongst a thriving tech community in which I’ve been fortunate to adopt several talented mentors. I have also been honored to assist junior devs in the genesis of their journeys.</p><p>My background in graphic design, marketing, photography, and publishing come in handy more often than my degrees in Anthropology and French, but maybe someday I will excavate ancient Neanderthal caves in the south of France.</p>
               <br />
               <h2 className="text-center">
 
@@ -71,7 +71,7 @@ export default class About extends React.Component {
 
                 <a href="https://www.github.com/mggude" target="_blank" rel="noopener noreferrer" data-tip data-for='js'><i className="fab fa-js-square skill"></i></a>
                 <ReactTooltip id='js' type='error' className='customTheme'>
-                  <span>Vanilla JS • jQuery</span>
+                  <span>JavaScript</span>
                 </ReactTooltip>
 
                 <a href="https://www.github.com/mggude" target="_blank" rel="noopener noreferrer" data-tip data-for='node'><i className="fab fa-node-js skill"></i></a>
@@ -96,7 +96,7 @@ export default class About extends React.Component {
 
                 <a href="https://www.github.com/mggude" target="_blank" rel="noopener noreferrer" data-tip data-for='more'><i className="fas fa-plus skill"></i></a>
                 <ReactTooltip id='more' type='error' className='customTheme'>
-                  <span>& MORE! Bootstrap, SQL, MongoDB, Express, SquareSpace, Firebase, etc...</span>
+                  <span>& MORE! Vue, Bootstrap, SQL, MongoDB, Express, SquareSpace, Firebase, etc...</span>
                 </ReactTooltip>
 
               </h2>
@@ -106,7 +106,7 @@ export default class About extends React.Component {
           <Row>
             <Col lg="8 offset-2">
               <Form onSubmit={this.handleFormSubmit}>
-                <Label for="message">Feel free to email me at <a href={"mailto:grace@gracegude.com"}>grace@gracegude.com</a> - or fill out the form below!</Label>
+                <Label for="message">Feel free to email me at <a href={"mailto:grace@gracegude.com"}>grace@gracegude.com</a> - or fill out the form below, I will check the db eventually!</Label>
                 <FormGroup>
                   <Input type="text" name="name" id="name" placeholder="YOUR NAME" onChange={this.handleChange} value={this.state.name} />
                 </FormGroup>

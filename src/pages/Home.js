@@ -19,9 +19,9 @@ function Home() {
                     <Col md="6">
                         <br></br>
                         <br></br>
-                        <h1>Hello World!</h1>
+                        <h1>Grace Gude <span role="img" aria-label="woman-technologist">👩🏻‍💻</span></h1>
                         <p>
-                            My name is Grace and I am a web developer, visual designer and project manager based in Denver.
+                            Software engineer, visual designer and Scrum Leader (CSM) based in Denver.
                             I enjoy designing, developing and managing interesting projects with cool people!
                         </p>
                     </Col>
