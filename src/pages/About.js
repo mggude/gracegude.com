@@ -100,7 +100,7 @@ export default class About extends React.Component {
               <br />
             <div margin="auto">
               <Form onSubmit={this.handleFormSubmit}>
-                <Label for="message">Feel free to email me at <a href={"mailto:grace@gracegude.com"}>grace@gracegude.com</a> - or fill out the form below, I will check the db eventually!</Label>
+                <Label for="message">Feel free to email me at <a href={"mailto:grace@gracegude.com"}>grace@gracegude.com</a> - or fill out the form below!</Label>
                 <FormGroup>
                   <Input type="text" name="name" id="name" placeholder="YOUR NAME" onChange={this.handleChange} value={this.state.name} />
                 </FormGroup>
