@@ -52,7 +52,7 @@ export default class About extends React.Component {
       <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
         <div className="content" margin="auto">
 
-              <p>As a full-stack software engineer and Scrum Leader (CSM), I enjoy working with my team to design and build platforms with clean, modern, maintainable code to create efficient and effective user interfaces.</p><p>I live in Denver amongst a thriving tech community in which I’ve been fortunate to adopt several talented mentors. I have also been honored to assist junior devs in the genesis of their journeys.</p><p>My background in graphic design, marketing, photography, and publishing come in handy more often than my degrees in Anthropology and French, but maybe someday I will excavate ancient Neanderthal caves in the south of France.</p>
+              <p>As an SRE at Fairwinds, I enjoy liaising with clients and uncovering solutions to improve their infrastructure. As a full-stack software engineer and Scrum Leader (CSM), I enjoyed working with my team to design and build platforms with clean, modern, maintainable code to create efficient and effective user interfaces.</p><p>I live in Denver amongst a thriving tech community in which I’ve been fortunate to adopt several talented mentors. I have also been honored to assist junior devs in the genesis of their journeys.</p><p>My background in graphic design, marketing, photography, and publishing come in handy more often than my degrees in Anthropology and French, but maybe someday I will excavate ancient Neanderthal caves in the south of France.</p>
               <br />
               <h2 className="text-center">
 
