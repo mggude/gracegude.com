@@ -15,7 +15,7 @@ function Projects() {
                 </ReactTooltip>
             </div>
             <div className="work">
-              <p>My current projects include managing Kubernetes infrasture as an SRE. I primarily code in JavaScript.</p><p>I like to pretend I know how to read Tarot, and as a pet project have built a Tarot Deck API. I query that data on a site that is unfortunately still hosted on Heroku and linked on this page.</p>
+              <p>Tarot Card of the Day, currently experiencing downtime.</p>
             </div>
           </div>
     </Animated>
